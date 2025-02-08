@@ -3,10 +3,10 @@ name: Generate Documentation
 on:
   push:
     branches:
-      - main  # ou la branche de votre choix
+      - main  # or the branch of your choice
   pull_request:
     branches:
-      - main  # ou la branche de votre choix
+      - main  # or the branch of your choice
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Remplacez par la version de Python que vous utilisez
+        python-version: '3.x'  # Replace with the Python version you are using
 
     - name: Install dependencies
       run: |
