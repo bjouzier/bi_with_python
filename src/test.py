@@ -2,7 +2,7 @@ def calculer_moyenne(liste):
     """
     Calcule la moyenne des éléments d'une liste.
 
-    Args:
+    Arguments:
         liste (list): Une liste de nombres.
 
     Returns:
