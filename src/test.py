@@ -1,6 +1,6 @@
 def calculer_moyenne(liste):
     """
-    modifié le 08/02/25 à 16:20
+    modifié le 08/02/25 à 16:24
     Calcule la moyenne des éléments d'une liste.
 
     Arguments:
