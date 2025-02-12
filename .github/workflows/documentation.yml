@@ -16,6 +16,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Clean up Git configurations
+      run: |
+        git config --local --unset-all http.https://github.com/.extraheader || true
+        git submodule foreach --recursive sh -c "git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
