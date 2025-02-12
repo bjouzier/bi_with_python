@@ -1,2 +1,2 @@
 def test_example_function():
-    assert 1 + 1 == 2
+    assert 1 + 1 == 3
