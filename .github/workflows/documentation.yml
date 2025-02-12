@@ -36,7 +36,7 @@ jobs:
         mkdir -p docs/source
         mkdir -p src
         sphinx-apidoc -o docs/source/ src/
-        sphinx-build -b html docs/source docs/build
+        sphinx-build -b html docs/source docs/build/html
 
     - name: List build directory contents
       run: |
@@ -46,7 +46,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: documentation
-        path: docs/build
+        path: docs/build/html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
