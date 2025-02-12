@@ -33,6 +33,8 @@ jobs:
 
     - name: Generate Sphinx documentation
       run: |
+        mkdir -p docs/source
+        mkdir -p src
         sphinx-apidoc -o docs/source/ src/
         sphinx-build -b html docs/source docs/build
 
