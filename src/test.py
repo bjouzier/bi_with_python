@@ -2,7 +2,7 @@ import random
 
 def calculer_moyenne(liste):
     """
-    modifié le 08/02/25 à 17:11
+    modifié le 12/02/25 à 10:09
     Calcule la moyenne des éléments d'une liste.
 
     Arguments:
@@ -15,12 +15,3 @@ def calculer_moyenne(liste):
         return 0
     return sum(liste) / len(liste)
 
-    def generer_nombre_aleatoire():
-        """
-        Génère un nombre aléatoire entre 0 et 11.
-
-        Returns:
-            int: Un nombre aléatoire entre 0 et 11.
-        """
-        return random.randint(0, 11)
-    generer_nombre_aleatoire()
