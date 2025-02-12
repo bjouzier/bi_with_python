@@ -3,10 +3,10 @@ name: Generate Documentation
 on:
   push:
     branches:
-      - main  # or the branch of your choice
+      - main  # ou la branche de votre choix
   pull_request:
     branches:
-      - main  # or the branch of your choice
+      - main  # ou la branche de votre choix
 
 jobs:
   build:
@@ -16,15 +16,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Clean up Git configurations
-      run: |
-        git config --local --unset-all http.https://github.com/.extraheader || true
-        git submodule foreach --recursive sh -c "git config --local --unset-all 'http.https://github.com/.extraheader' || :"
-
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Replace with the Python version you are using
+        python-version: '3.x'  # Remplacez par la version de Python que vous utilisez
 
     - name: Install dependencies
       run: |
@@ -33,20 +28,14 @@ jobs:
 
     - name: Generate Sphinx documentation
       run: |
-        mkdir -p docs/source
-        mkdir -p src
         sphinx-apidoc -o docs/source/ src/
-        sphinx-build -b html docs/source docs/build/html
-
-    - name: List build directory contents
-      run: |
-        ls -la docs/build/html
+        sphinx-build -b html docs/source docs/build
 
     - name: Upload documentation
       uses: actions/upload-artifact@v4
       with:
         name: documentation
-        path: docs/build/html
+        path: docs/build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
