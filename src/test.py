@@ -1,4 +1,3 @@
-import random
 
 def calculer_moyenne(liste):
     """

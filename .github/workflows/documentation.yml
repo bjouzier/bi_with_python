@@ -31,6 +31,10 @@ jobs:
         sphinx-apidoc -o docs/source/ src/
         sphinx-build -b html docs/source docs/build
 
+    - name: List build directory contents
+      run: |
+        ls -la docs/build/html
+
     - name: Upload documentation
       uses: actions/upload-artifact@v4
       with:
