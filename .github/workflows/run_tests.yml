@@ -1,7 +1,12 @@
 name: Run Tests
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main  # or the branch of your choice
+  pull_request:
+    branches:
+      - main  # or the branch of your choice
 
 jobs:
   run-tests:
