@@ -14,3 +14,4 @@ def calculer_moyenne(liste):
         return 0
     return sum(liste) / len(liste)
 
+
