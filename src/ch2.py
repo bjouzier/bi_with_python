@@ -12,7 +12,6 @@ data = pd.read_csv('./data/Comptes_Perso_2023_Cloture.csv'
 print(data.columns)
 print(data.head(5))
 print(data.shape)
-print(data.index)
 print(data.dtypes)
 
 
