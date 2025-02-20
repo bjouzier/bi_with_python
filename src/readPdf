@@ -1,0 +1,16 @@
+#import tabula
+import pdfplumber
+
+pdf_path = "./data/Journaux_2023_utf8.pdf"
+
+"""
+tables=tabula.read_pdf(pdf_path, pages=1, multiple_tables=True)
+print(tables) #Ici erreur d'encodage, tabula ne permet pas de modifier encodage
+"""
+with pdfplumber.open(pdf_path) as pdf:
+    first_page = pdf.pages[0]
+    tables = first_page.extract_tables()
+    for table in tables:
+        for row in table:
+            print(row)
+
