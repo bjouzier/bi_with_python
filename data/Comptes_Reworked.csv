@@ -1,0 +1,286 @@
+﻿Cpte;SsCpte;Dest;Description
+ALI;01;Général;Alimentation (achat alimentation)
+ALI;01;Claire;Alimentation (achat alimentation)
+ALI;01;Clément;Alimentation (achat alimentation)
+ALI;01;Baptiste;Alimentation (achat alimentation)
+ALI;02;Général;Alimentation à l'extérieur
+ALI;02;Claire;Alimentation à l'extérieur
+ALI;02;Clément;Alimentation à l'extérieur
+ALI;02;Arnaud;Alimentation à l'extérieur
+ALI;02;Baptiste;Alimentation à l'extérieur
+ALI;02;MC;Alimentation à l'extérieur
+ALI;02;AetB;Alimentation à l'extérieur
+ALI;00;Général;Plants et graines diverses … promesse d'alimentation -)
+DOC;01;Général;Documentation
+HAB;01;Arnaud;Habillement  effets perso
+HAB;01;Baptiste;Habillement  effets perso
+HAB;01;AetB;Habillement  effets perso
+HAB;01;Claire;Habillement  effets perso
+HAB;01;Clément;Habillement  effets perso
+HAB;01;Bruno;Habillement  effets perso
+HAB;01;MC;Habillement  effets perso
+HAB;01;Général;Habillement  effets perso  mercerie  pressing  blanc
+HAB;01;Mamie;Habillement  effets perso
+IMP;01;Général;IRPP et Prelevements sociaux
+IMP;02;3Lisses;Taxe Foncière
+IMP;02;EstheticCenter;Taxe Foncière
+IMP;02;Montvendre;Taxe Foncière
+IMP;03;Général;Taxe habitation
+IMP;03;Clément;Taxe habitation
+IMP;04;Général;Redevance Audiovisuelle
+IMP;051;Général;Contributions sociales - (CSG RDS PS) sur dividendes
+IMP;09;Général;Autres taxes  amendes  frais administratifs
+BAS;01;Général;Assurance logement
+BAS;03;Général;Assurance scolaire
+BAS;04;Général;Assurances diverses
+BAS;05;Général;Services bancaires
+BAS;05;Claire;PACK Jeunes Claire
+BAS;05;Jazz;Cotisations Jazz
+BAS;05;PEA;Droits de garde PEA
+BAS;06;Général;Interets payés  moins-values
+BAS;07;Général;Frais actes  frais notariés  administratif
+SCO;01;Général;Fournitures scolaire  papeterie
+SCO;01;Claire;Fournitures scolaire  papeterie
+SCO;01;Clément;Fournitures scolaire  papeterie
+SCO;01;Arnaud;Fournitures scolaire  papeterie
+SCO;01;AetB;Fournitures scolaire  papeterie
+SCO;01;Baptiste;Fournitures scolaire  papeterie
+SCO;02;Général;Frais de scolarité  papiers identitié
+SCO;02;Bruno;Frais de scolarité  papiers identitié
+SCO;02;Claire;Frais de scolarité  papiers identitié
+SCO;02;Clément;Frais de scolarité  papiers identitié
+SCO;02;Arnaud;Frais de scolarité  papiers identitié
+SCO;02;Baptiste;Frais de scolarité  papiers identitié
+SCO;02;AetB;Frais de scolarité  papiers identitié
+SCO;04;Général;Déplacement scolaires
+SCO;05;Général;Activités culturelles et sportives
+SCO;05;Claire;Activités culturelles et sportives
+SCO;05;Clément;Activités culturelles et sportives
+SCO;05;Arnaud;Activités culturelles et sportives
+SCO;05;Baptiste;Activités culturelles et sportives
+SCO;05;MC;Activités culturelles et sportives
+SCO;05;Bruno;Activités culturelles et sportives
+SCO;05;AetB;Activités culturelles et sportives
+SCO;06;Général;Formation et documentation de gestion
+LOI;01;Général;Vacances été
+LOI;02;Général;Vacances Hiver
+LOI;03;Général;Autres divertissements
+LOI;03;Arnaud;Autres divertissements
+LOI;03;Baptiste;Autres divertissements
+LOI;03;AetB;Autres divertissements
+LOI;03;Claire;Autres divertissements
+LOI;03;Clément;Autres divertissements
+LOI;03;Bruno;Autres divertissements
+LOI;03;MC;Autres divertissements
+LOI;03;MCetB;Autres divertissements
+LOI;03;Mamie;Autres divertissements
+LOI;03;Grece2011;Autres divertissements
+LOI;04;Général;Réceptions - Fêtes famille
+LOI;05;Général;Jardinage  outils … Meylan
+LOI;05;Montvendre;Jardinage  outils …graines oiseaux
+LOI;06;Général;Cadeaux en dehors de la famille
+LOI;07;Général;Animaux de compagnie : Samoussa
+LOI;08;Général;Dons  Œuvres
+LOG;01;3Lisses;Travaux logement et achats induits
+LOG;01;Montvendre;Travaux logement et achats induits
+LOG;01;SJL;Travaux logement et achats induits
+LOG;01;Général;Travaux logement et achats induits
+LOG;02;Général;Consommables et petits matériel
+LOG;02;Claire;Consommables et petits matériel
+LOG;02;Clément;Consommables et petits matériel
+LOG;02;Baptiste;Consommables et petits matériel
+LOG;02;AetB;Consommables et petits matériel
+LOG;02;Mamie;Consommables et petits matériel
+LOG;02;Vélos;Consommables et petits matériel
+LOG;02;Montvendre;Consommables et petits matériel  dont bricolage
+LOG;03;Montvendre;Equipement (meubles  electromenager chaudières)
+LOG;03;Général;Equipement (meubles  electromenager chaudières)
+LOG;03;Claire;Equipement (meubles  electromenager chaudières)
+LOG;03;Clément;Equipement (meubles  electromenager chaudières)
+LOG;03;SJL;Equipement (meubles  electromenager chaudières)
+LOG;04;Général;Employée de maison
+LOG;05;3Lisses;Copropriété
+LOG;06;Général;Eau
+LOG;06;Montvendre;Eau - Contrat 1068516 - Compteur INCON00047
+LOG;06;GdPere;Eau - Contrat 1068515 - Compteur INCON00046
+LOG;07;Général;Gaz-électricité-Fioul
+LOG;07;3Lisses1;Gaz-électricité-Fioul
+LOG;07;3Lisses2;Gaz-électricité-Fioul
+LOG;07;Montvendre;Gaz-électricité-Fioul
+LOG;07;SJL;Gaz-électricité-Fioul
+LOG;08;3Lisses1;Téléphone/Internet  3 Lisses
+LOG;08;3Lisses2;Téléphone/Internet  3 Lisses
+LOG;08;Neuf;Internet 9 Telecom
+LOG;08;Claire;Mobile Claire  Internet
+LOG;08;Clément;Mobile Clément
+LOG;08;Arnaud;Mobile Arnaud
+LOG;08;Baptiste;Mobile Baptiste
+LOG;08;MC;Internet  Téléphone autres
+LOG;08;Général;Internet  Téléphone autres
+LOG;08;Montvendre;Internet  Téléphone autres
+LOG;09;Général;Loyers  location Hotel
+LOG;09;Claire;Loyers  location Hotel
+LOG;09;Clément;Loyers  location Hotel
+LOG;09;AetB;Loyers  location Hotel
+LOG;10;Général;Frais postaux (timbres poste)
+VOI;01;Général;Autoroute  Parking  cartes routières
+VOI;02;Général;Essence ou gazole (pour être précis)
+VOI;02;ClioRouge;Essence ou gazole (pour être précis)  - Rouge et Campus
+VOI;02;ClioCampus;Essence ou gazole (pour être précis)  - Rouge et Campus
+VOI;02;ClioGrise;Essence ou gazole (pour être précis)
+VOI;02;ClioBlanche;Essence ou gazole (pour être précis)
+VOI;02;Dacia;Essence ou gazole (pour être précis)
+VOI;03;ClioRouge;Entretien/Réparation  accessoires - Rouge et Campus
+VOI;03;ClioCampus;Entretien/Réparation  accessoires - Rouge et Campus
+VOI;03;ClioGrise;Entretien/Réparation  accessoires
+VOI;03;ClioBlanche;Entretien/Réparation  accessoires
+VOI;03;Dacia;Entretien/Réparation  accessoires
+VOI;04;Général;Remboursement frais km
+VOI;05;Général;Autres transport : avion  train  métro  bus  taxi  bateau  etc
+VOI;05;Claire;Autres transport : avion  train  métro  bus  taxi  etc
+VOI;05;Clément;Autres transport : avion  train  métro  bus  taxi  etc
+VOI;05;AetB;Autres transport : avion  train  métro  bus  taxi  etc
+VOI;05;Arnaud;Autres transport : avion  train  métro  bus  taxi  etc
+VOI;05;Baptiste;Autres transport : avion  train  métro  bus  taxi  etc
+VOI;05;MC;Autres transport : avion  train  métro  bus  taxi  etc
+VOI;06;Général;Renouvellement Autos
+VOI;07;Général;Location Voiture
+VOI;08;Général;Assurance Automobile et frais administratifs (critair  CG…)
+VOI;08;Espace;Assurance Automobile
+SAN;01;Général;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;01;Claire;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;01;Clément;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;01;Arnaud;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;01;Baptiste;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;01;AetB;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;01;MC;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;01;Bruno;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;01;Mamie;Mèdecin  Médicaments  kiné  hospitalisation
+SAN;02;Général;Hygiène  para-pharmacie  coiffeur
+SAN;02;MC;Hygiène  para-pharmacie  coiffeur
+SAN;02;Bruno;Hygiène  para-pharmacie  coiffeur
+SAN;02;Claire;Hygiène  para-pharmacie  coiffeur
+SAN;02;Arnaud;Hygiène  para-pharmacie  coiffeur
+SAN;02;Clément;Hygiène  para-pharmacie  coiffeur
+SAN;02;Baptiste;Hygiène  para-pharmacie  coiffeur
+SAN;02;AetB;Hygiène  para-pharmacie  coiffeur
+SAN;02;Mamie;Hygiène  para-pharmacie  coiffeur
+DIV;01;MC;Espèces  argent de poche  inconnu
+DIV;01;Bruno;Espèces  argent de poche  inconnu
+DIV;01;Général;Espèces  argent de poche  inconnu
+DIV;02;Général;Carrefour - articles courants
+DIV;03;Général;Décathlon
+DIV;04;Général;FNAC
+DIV;05;Général;Bon achats  remises  articles à rendre
+DIV;06;Général;Non identifiés
+DIV;07;Enfants;Argent poche enfants
+DIV;07;Bruno;Cagnotte Bruno
+DIV;07;MC;Cagnotte MC
+DIV;07;Claire;Cagnotte Claire
+DIV;07;Clément;Cagnotte Clément
+DIV;07;Arnaud;Cagnotte Claire
+DIV;07;Baptiste;Cagnotte Clément
+DIV;08;Général;Subventions diverses
+PRF;01;MC;Rémunération professionnelle  participation épargne salariale
+PRF;01;Bruno;Rémunération professionnelle
+PRF;02;MC;Frais Professionnels
+PRF;03;MC;Subventions CE Cap Gemini
+PRF;02;Bruno;Frais Professionnels ESBJ
+PRF;03;Bruno;Subventions EBSJ (CESU …) - Crouzet
+PRF;04;MC;Tickets restaurant MC
+PRF;05;MC;Pension
+PRS;01;CAF;Allocations familiales
+PRS;01;CPAM;Assurance Maladie CPAM
+PRS;01;LMDE;Sécurité Sociale étudiante - LMDE
+PRS;01;RAM;Assurance Maladie RAM
+PRS;01;Savoye;Mutuelle Gras Savoye
+PRS;01;MERCER;Mutuelle Gras Savoye
+PRS;01;MFGTS;Mutuelle MFGTS
+FEM;60;Emp-CFF;Emprunt CFF - Interets
+FEM;62;Emp-CFF;Emprunt CFF - Commission de caution
+FEM;65;Emp-CFF;Frais de dossiers
+RFN;01;Texto;Local Commercial TEXTO
+RFN;01;Montvendre;Loyers Montvendre
+RFN;40;Bruno;Revenus PEA 7676
+RFN;40;MC;Revenus PEA 7833
+RFN;06;LA-MC;Interets reçus
+RFN;06;LA-Bruno;Interets reçus
+RFN;06;LivretBMC;Interets reçus
+RFN;06;LDD-Bruno;Interets reçus
+RFN;06;LDD-MC;Interets reçus
+RFN;06;CEL-Bruno;Interets reçus
+RFN;06;CEL-MC;Interets reçus
+FVM;10;PeaMCSgamFr;Plus ou moins values
+FVM;10;PeaMCSgamEur;Plus ou moins values
+FVM;10;Rexel;Plus ou moins values
+FVM;15;PeaMCSgamFr;Dividendes
+FVM;60;PeaMCSgamEur;Frais Entrée SICAV
+FVM;62;PeaMC;Frais de garde
+FVM;10;PeaBruno;Plus ou moins values
+FVM;62;PeaBruno;Frais de garde
+FVM;10;YuccaSec;Plus ou moins values Unité de comptes Assurance-vie
+FVM;10;SequoïaCristal5;Plus ou moins values Unité de comptes Assurance-vie
+FVM;61;YuccaDarw;Frais gestion sur Assurance-vie en U.C.
+FVM;44;MC;Plus-Moins values actions Cap nominatives (CACEIS)
+FAV;50;Vie+ PER Bruno;Frais Assurance vie 
+FAV;70;EcVieBruno;Interets reçus sur Assurance vie en Euros
+FAV;65;EcVieBruno;Prélèvement sociaux preleves sur Assurance-vie
+FAV;70;EcVieMC;Interets reçus sur Assurance vie en Euros
+FAV;65;EcVieMC;Prélèvement sociaux preleves sur Assurance-vie
+FAV;65;LaPosteGmoMC;Interets reçus sur Assurance vie en Euros
+FAV;70;YuccaSec;Interets reçus sur Assurance vie en Euros
+FAV;10;SequoïaCristal5;Plus ou moins values Unité de comptes Assurance-vie
+FAV;70;SequoïaCristal5;Rémunération Assurance-vie en U.C
+FAV;61;SequoïaCristal5;Frais gestion sur Assurance-vie en U.C.
+DEX;01;3Lisses;Ravalement 3 lisses
+DEX;01;Général;Dépenses exceptionnelles - Achats d'équipements non provisionnés
+DEX;01;Lilas;Lotissement pré des Lilas
+REX;01;Général;Revenus exceptionnels
+999;99;Général;Ecritures annulées
+BIL;00;Général;Caisse
+BIL;00;Canada;Caisse Mamie pour Montvendre
+BIL;01;Général;SG - Compte courant
+BIL;01;Premier;SG - Compte courant - Carte VISA Premier
+BIL;80;Général;Chèques à encaisser
+BIL;81;Général;Carte Cofinoga
+BIL;83;Arthaud;Avoir Arthaud / Ikea
+BIL;83;MRA;Carte MRA Clément
+BIL;83;Decathlon;Carte Decathlon
+BIL;83;TR;Tickets restaurant MC
+BIL;98;Claire;Compte Enfants
+BIL;98;Clément;Compte Enfants
+BIL;98;Arnaud;Compte Enfants
+BIL;98;Baptiste;Compte Enfants
+BIL;98;MC;Compte MC
+BIL;98;Bruno;Compte Bruno
+BIL;98;ESBJ;Compte Bruno
+BIL;98;Mam;Compte mam
+BIL;98;Ext;Comptes partenaires extérieurs
+BIL;98;Maria;Compte Maria
+BIL;10;LDD-MC;SG - LDD MC - 00034316493
+BIL;10;LDD-Bruno;SG - LDD Bruno - 00034316485
+BIL;12;LA-Bruno;SG - Livret A Bruno - 00030472258
+BIL;12;LA-MC;SG - Livret A MC - 00030472266
+BIL;15;LivretBMC;Compte livret BetMC - 00036600027
+BIL;20;CEL-Bruno;SG - CEL Bruno 00036484232
+BIL;20;CEL-MC;SG- CEL MC 00036484240
+BIL;50;YuccaSec;SG - Assurance-vie YUCCA - Disponible 15/02/2010
+BIL;50;SequoïaCristal5;SG - Assurance-vie SEQUOIA - 25/01/2014
+BIL;30;MC;Amundi - Participation Cap
+BIL;40;Bruno;PEA 7676
+BIL;40;MC;PEA 7833
+BIL;43d;Général;FR0010451203 - Actions Rexel
+BIL;44;MC;CACEIS - Actions Nominatives Cap Gemini
+BIL;50;LaPosteGmoMC;LaPoste GMO Assurance vie - Contrat 965 492969 04
+BIL;50;Vie+ PER Bruno;Assurance Vie+ PER Contrat xxx - 04/11/2022
+BIL;50;Vie+ PER MC;Assurance Vie+ PER Contrat xxx - 04/11/2022
+BIL;61;Général;Emprunt SG 604006806188
+BIL;62;Général;Emprunt SG 604006806196
+BIL;63;Général;Emprunt ASTRIA 1% Logement
+BIL;60;Emp-CFF;Emprunt Crédit Foncier 
+BIL;70;Général;Appartement 3 Lisses RDC
+BIL;71;Général;Appartement 3 Lisses 1er
+BIL;70;Texto;Local Commercial TEXTO
+BIL;70;SJL;Appartement 1er Ithurikko Echea (nue-propriété)
+BIL;70;Chatenay;Appartement Chatenay (50% Anne - nue-propriété)
+BIL;900;Général;Capital
