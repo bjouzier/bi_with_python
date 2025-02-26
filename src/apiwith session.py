@@ -1,11 +1,15 @@
+import json
 import requests
 
+url = 'https://api-adresse.data.gouv.fr/search/?q=Tuiliers&limit=3'
 with requests.Session() as session:
     try:
-        response = session.get('http://api.openweathermap.org/data/2.5/weather?q=Saint-Jean-de-Luz&appid=fd5616b0f7f4515eb3c352aa850dfb54')
+        response = session.get(url)
         response.raise_for_status()
         if response.status_code == 200:
-            print(response.json())
+            data=response.json()['query']
+            print(type(data))
+            print(json.dumps(data, indent=4))
     except requests.exceptions.HTTPError as http_err:
         print(f"HTTP error occurred: {http_err}")
     except Exception as err:
