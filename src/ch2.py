@@ -19,9 +19,10 @@ data = pd.read_excel('./data/Comptes_Perso_2023_Cloture.xlsm'
                           , "Cpte": "string", "Ss-Cpte": "string", "Dest": "string"}
                   ,index_col=1
                   ,parse_dates=True)
-print(data.columns)
-print(data.head(6))
-print(data.shape)
-print(data.dtypes)
+#print(data.columns)
+#print(data.head(6))
+#print(data.shape)
+#print(data.dtypes)
+print(data)
 
 
