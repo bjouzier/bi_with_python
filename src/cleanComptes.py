@@ -1,6 +1,6 @@
 import pandas as pd
 import pandasql as ps
-import numpy as np
+#import numpy as np
 from decimal import Decimal
 
 df = pd.read_csv('data/Comptes_Perso_2023_Cloture.csv', sep=';', decimal=',')
@@ -18,6 +18,8 @@ df = df.convert_dtypes()
 df['Ex'] = df['Date'].dt.year
 
 #Filtrer pour ne pas prendre les lignes de report à nouveau
+# ~ est le not en python
+# on ne peut asp écrire 
 print(df.head())
 df = df[~df['Description'].str.contains('Report à nouveau',na=False)]
 print(df.head())
