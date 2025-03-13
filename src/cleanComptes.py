@@ -1,5 +1,6 @@
 import pandas as pd
 import pandasql as ps
+import numpy as np
 from decimal import Decimal
 
 df = pd.read_csv('data/Comptes_Perso_2023_Cloture.csv', sep=';', decimal=',')
@@ -15,6 +16,13 @@ df['SsCpte'] = df['SsCpte'].astype(str).str.zfill(2)
 df = df.convert_dtypes()
 # On ajoute une colonne pour l'exercice, cela permettra d'avoir un clé unique Ex+Doc
 df['Ex'] = df['Date'].dt.year
+
+#Filtrer pour ne pas prendre les lignes de report à nouveau
+print(df.head())
+df = df[df['Description'].str.contains('Report à nouveau') == False]
+print(df.head())
+
+
 """
 Dans l'instruction ci-dessous assigne créé une nouvelle colonne. Lambda est 
 une fonction anonyme, un callable acceptée par assign.
@@ -60,3 +68,17 @@ df_grouped2 = df_grouped2.reset_index() # pour avoir les colonnes Cpte et SsCpte
 #cela sort les colonnes de l'index, qui est recréé comme in undex de base 0,1,2,3...
 print(df_grouped2.info())
 print(df_grouped2.head())
+
+#Recherche de valeurs aberrantes du montant
+data=df['Montant'].transform(abs) # on prend la valeur absolue
+Q1 = data.quantile(0.25)
+Q3 = data.quantile(0.75)
+IQR = Q3 - Q1
+limit_sup = Q3 + 1.5 * IQR
+#Q3np = np.percentile(data, 25) marche aussi
+print("Q1 : ",Q1)
+print("Q3 : ",Q3)
+print("IQR : ",IQR)
+print("limit_sup",limit_sup)
+filtered_data = data[(data < Q1 - 1.5 * IQR) | (data > Q3 + 1.5 * IQR)]
+
