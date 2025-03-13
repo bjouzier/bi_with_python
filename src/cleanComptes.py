@@ -19,7 +19,7 @@ df['Ex'] = df['Date'].dt.year
 
 #Filtrer pour ne pas prendre les lignes de report à nouveau
 print(df.head())
-df = df[df['Description'].str.contains('Report à nouveau') == False]
+df = df[~df['Description'].str.contains('Report à nouveau',na=False)]
 print(df.head())
 
 
