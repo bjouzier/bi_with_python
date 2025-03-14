@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Générer un nombre aléatoire entre 1 et 12
-random_number = random.randint(1, 12)
+random_number = random.randint(1, 12,size=100)
 
 # Créer une fenêtre Tkinter
 root = tk.Tk()
