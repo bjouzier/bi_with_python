@@ -1,0 +1,25 @@
+import pandas as pd
+import recordlinkage
+
+# Création des DataFrames
+df1 = pd.DataFrame({'Nom': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]})
+df2 = pd.DataFrame({'Nom': ['Alicia', 'Bobby', 'Charles'], 'Age': [25, 29, 35]})
+
+# 1 Indexation (blocage sur la colonne 'Nom')
+indexer = recordlinkage.Index()
+indexer.block('Nom')
+candidate_links = indexer.index(df1, df2)
+
+# 2 Comparaison des enregistrements
+compare = recordlinkage.Compare()
+compare.string('Nom', 'Nom', method='jarowinkler', threshold=0.85, label='Nom_match')
+compare.numeric('Age', 'Age', method='linear', scale=2, label='Age_match')
+
+# 3 Calcul des similarités
+features = compare.compute(candidate_links, df1, df2)
+
+# 4 Filtrage des bonnes correspondances (au moins un critère validé)
+matches = features[features.sum(axis=1) > 1]
+
+# 5 Affichage des correspondances trouvées
+print(matches)

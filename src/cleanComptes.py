@@ -19,7 +19,10 @@ df['Ex'] = df['Date'].dt.year
 
 #Filtrer pour ne pas prendre les lignes de report à nouveau
 # ~ est le not en python
-# on ne peut asp écrire 
+# on ne peut pas écrire df[n not df['Description'].str.contains('Report à nouveau',na=False)]
+# car le not est appliqué à la liste des lignes et non à chaque ligne
+# na=False permet de ne pas tenir compte des valeurs nulles
+# on ne peut pas utiliser le not dans le contains, il faut utiliser ~
 print(df.head())
 df = df[~df['Description'].str.contains('Report à nouveau',na=False)]
 print(df.head())
